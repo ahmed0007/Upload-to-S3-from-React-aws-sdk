@@ -8,7 +8,7 @@ Steps to follow
 2. Clone this repository
 3. Run `npm install`
 
-   The `react-aws-s3` package, has been used to facilitate the file uploads to th S3 bucket
+   We are using aws sdk, this repo has been updated to  facilitate the file uploads to th S3 bucket with progress bar
 4. Create a `.env` file at the root of the repository and add the details in the following format
 
     ```

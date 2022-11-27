@@ -1,6 +1,5 @@
 import AWS from 'aws-sdk';
 import React , {useState} from 'react';
-// import S3 from 'react-aws-s3';
 // installed using npm install buffer --save
 window.Buffer = window.Buffer || require("buffer").Buffer;
 
@@ -92,12 +91,6 @@ const Upload = () => {
 
     return <div>
         
-        {/* <div>React S3 File Upload</div>
-        <input type="file" onChange={handleFileInput}/>
-        <br></br>
-        <button onClick={() => uploadFile(selectedFile)}> Upload to S3</button>
- */}
-
         <input type="file" id="myFile" multiple size="50" onChange={uploadSampleFile}/>
         <br></br>    
         <div id="myProgress">      
