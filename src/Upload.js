@@ -50,16 +50,12 @@ const Upload = () => {
       }
      
       const uploadSampleFile = () => {
-        console.log(' here from uploadSamleFile')
         var progressDiv = document.getElementById("myProgress");
-        progressDiv.style.display="block";
         var progressBar = document.getElementById("myBar");
         let file = document.getElementById("myFile").files[0];
 
-        console.log({file})
         let folderName = "course.images/";
         let uniqueFileName = tuuid(file.name); 
-        console.log({uniqueFileName})
         let fileUpload = {
           id: "",
           name: file.name,
